@@ -1,0 +1,13 @@
+Chau: hamtoanhoc.o giathua.o tongchan.o tongle.o luythua.o
+	gcc -o Chau hamtoanhoc.o giathua.o tongchan.o tongle.o luythua.o
+hamtoanhoc.o: hamtoanhoc.c libmymath.h
+	gcc -c hamtoanhoc.c
+giathua.o: giathua.c libmymath.h 
+	gcc -c giathua.c
+tongchan.o: tongchan.c libmymath.h
+	gcc -c tongchan.c
+tongle.o: tongle.c libmymath.h
+	gcc -c tongle.c
+luythua.o: luythua.c libmymath.h
+	gcc -c luythua.c
+	
